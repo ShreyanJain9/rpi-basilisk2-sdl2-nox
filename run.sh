@@ -62,8 +62,8 @@ sudo make install
 
 echo -e "${RED}>>> Setting up some Basilisk II preferences.${NC}"
 
-echo "rom /home/pi/Quadra800.ROM
-disk /home/pi/HD200MB
+echo "rom /home/shreyan/Quadra800.ROM
+disk /home/shreyan/HD200MB
 ramsize 142606336
 frameskip 0
 modelid 14
@@ -73,7 +73,7 @@ screen win/640/480
 displaycolordepth 8" | tee -a ~/.basilisk_ii_prefs
 
 cd ~
-unzip rpi-basilisk2-sdl2-nox/HD200MB-POP.zip -d /home/pi
+unzip rpi-basilisk2-sdl2-nox/HD200MB-POP.zip -d /home/shreyan
 cp rpi-basilisk2-sdl2-nox/Quadra800.ROM .
 
 echo -e "${RED}>>> Done. Starting BasiliskII...${NC}"
