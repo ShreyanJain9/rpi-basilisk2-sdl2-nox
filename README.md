@@ -13,7 +13,7 @@ A 200MB disk image is also included here with pre-installed Mac OS 7.6.1 and Pri
 To install, boot into your freshly created Raspberry Pi OS Lite and login with the default user "pi" (password "raspberry"). Then run the following commands:
 
     sudo apt install git
-    git clone https://github.com/ekbann/rpi-basilisk2-sdl2-nox
+    git clone https://github.com/ShreyanJain9/rpi-basilisk2-sdl2-nox
     cd rpi-basilisk2-sdl2-nox
     bash run.sh
 
